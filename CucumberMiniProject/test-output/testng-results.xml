@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T13:29:45 GMT" name="Default suite" finished-at="2024-02-18T13:30:10 GMT" duration-ms="24424">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5ffead27]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-18T13:29:45 GMT" name="Default test" finished-at="2024-02-18T13:30:10 GMT" duration-ms="24424">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@5ffead27]" started-at="2024-02-18T13:29:45 GMT" name="setUpClass" finished-at="2024-02-18T13:29:45 GMT" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5aa360ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5ffead27]" started-at="2024-02-18T13:29:45 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-18T13:30:07 GMT" duration-ms="21188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality for OpenCart ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5ffead27]" started-at="2024-02-18T13:29:45 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-18T13:30:06 GMT" duration-ms="20567" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login with invalid or empty credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality for OpenCart ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Epic sadface: Username and password do not match any user in this service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Epic sadface: Username and password do not match any user in this service]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinition.LoginPageSteps.i_should_see_an_error_message_indicating(LoginPageSteps.java:82)
+at ✽.I should see an error message indicating "Epic sadface: Username and password do not match any user in this service"(file:///Users/kritikatanwar/Documents/Eclipse_workspace/CucumberMiniProject/src/test/resources/features/loginpage.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5ffead27]" started-at="2024-02-18T13:29:45 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-18T13:30:09 GMT" duration-ms="23384" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login with invalid or empty credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality for OpenCart ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Epic sadface: Username and password do not match any user in this service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Epic sadface: Username and password do not match any user in this service]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinition.LoginPageSteps.i_should_see_an_error_message_indicating(LoginPageSteps.java:82)
+at ✽.I should see an error message indicating "Epic sadface: Username and password do not match any user in this service"(file:///Users/kritikatanwar/Documents/Eclipse_workspace/CucumberMiniProject/src/test/resources/features/loginpage.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@5ffead27]" started-at="2024-02-18T13:30:09 GMT" name="tearDownClass" finished-at="2024-02-18T13:30:10 GMT" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
