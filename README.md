@@ -1,6 +1,6 @@
 # Selenium with Cucumber - Java BDD Framework - Mini Project
 
-### Performing Testing on "https://www.saucedemo.com/" website
+#### Performing UI Testing on "https://www.saucedemo.com/" website
  
  **Tools and Technology** 
 1. Cucumber - Java Lib / Selenium 4.x 
