@@ -12,6 +12,6 @@
 7. Gherkin
 8. Feature Files
 <img>
-https://github.com/Kritika13/CucumberMiniProject/blob/master/Framework.jpg
+Framework.jpg
 </img>
 
