@@ -1,4 +1,4 @@
-# Selenium with Cucumber - Java BDD Framework - Mini Project
+## Selenium with Cucumber - Java BDD Framework - Mini Project
 
 #### Performing UI Testing on "https://www.saucedemo.com/" website
  
