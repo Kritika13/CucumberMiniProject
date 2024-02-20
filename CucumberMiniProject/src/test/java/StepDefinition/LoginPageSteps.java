@@ -45,7 +45,7 @@ public class LoginPageSteps {
 	}
 
 
-	@Given("I am on the opencart login page")
+	@Given("I am on the sauceDemo login page")
 	public void i_am_on_the_opencart_login_page() {
 
 		driver.get("https://www.saucedemo.com/");
