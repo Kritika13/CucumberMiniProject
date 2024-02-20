@@ -11,6 +11,7 @@
 6. Eclipse - IDE
 7. Gherkin
 8. Feature Files
-
-
+<img>
 https://github.com/Kritika13/CucumberMiniProject/blob/master/Framework.jpg
+</img>
+
