@@ -1,11 +1,11 @@
-Feature: Login functionality for OpenCart ecommerce website
+Feature: Login functionality for SauceDemo ecommerce website
   
-  As a user of the opencart website
+  As a user of the saucedemo website
   I want to be able to login with my account 
   So that I can manage my account related featuresnd manage my orders
 
   Background: 
-    Given I am on the opencart login page
+    Given I am on the sauceDemo login page
 
   Scenario: Successfully login with valid credentials
     Given I have entered a valid username and password
