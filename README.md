@@ -11,7 +11,5 @@
 6. Eclipse - IDE
 7. Gherkin
 8. Feature Files
-<img>
-Framework.jpg
-</img>
+
 
