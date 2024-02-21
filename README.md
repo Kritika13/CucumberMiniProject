@@ -19,4 +19,22 @@ As a user of the sauceDemo website
 7. Gherkin
 8. Feature Files
 
+**Folder Structure**
+Project Name
+|
+src/test/resources/**Features**(Folder)
+|
+src/main/java/**pageObject**(Package)
+|
+src/test/java/**stepDefinitions**(package)
+|
+src/test/java/**utilities**(Package)
+|
+Drivers(Folder)
+|
+Target(Reports)
+|
+pom.xml
+|
+testng.xml
 
