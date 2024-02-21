@@ -3,10 +3,10 @@
 #### Performing UI Testing on an E-commerce website
 
 **Automation Scenario:**
-Navigate to https://www.saucedemo.com/
-As a user of the sauceDemo website
-I want to be able to login with my account 
-So that I can manage my account related features and manage my orders
+1. Navigate to https://www.saucedemo.com/
+2. As a user of the sauceDemo website
+3. I want to be able to login with my account 
+4. So that I can manage my account related features and manage my orders
 
 
  **Tools and Technology** 
