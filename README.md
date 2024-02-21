@@ -20,21 +20,21 @@ As a user of the sauceDemo website
 8. Feature Files
 
 **Folder Structure**
-Project Name
+*Project Name
 |
-src/test/resources/**Features**(Folder)
+*src/test/resources/**Features**(Folder)
 |
-src/main/java/**pageObject**(Package)
+*src/main/java/**pageObject**(Package)
 |
-src/test/java/**stepDefinitions**(package)
+*src/test/java/**stepDefinitions**(package)
 |
-src/test/java/**utilities**(Package)
+*src/test/java/**utilities**(Package)
 |
-Drivers(Folder)
+*Drivers(Folder)
 |
-Target(Reports)
+*Target(Reports)
 |
-pom.xml
+*pom.xml
 |
-testng.xml
+*testng.xml
 
