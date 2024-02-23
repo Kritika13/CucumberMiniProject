@@ -56,12 +56,12 @@ MySeleniumProject
 git clone (https://github.com/Kritika13/CucumberMiniProject.git)
 cd CucumberMiniProject
 ```
-### 2.Configure WebDriver:
+### 2. Configure WebDriver:
 
 Download the appropriate WebDriver executable (e.g., ChromeDriver) and update the 
 `webdriver.path in src/main/resources/config/config.properties`
 
-### 3.Run the Tests:
+### 3. Run the Tests:
 `mvn clean test`
 The tests will execute in parallel, and you can view the test results in the target/cucumber-reports directory.
 
