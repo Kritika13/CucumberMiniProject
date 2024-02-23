@@ -1,41 +1,67 @@
-## Selenium with Cucumber - Java BDD Framework - Mini Project
+# Selenium-Cucumber TestNG BDD UI Automation Project
 
-#### Performing UI Testing on an E-commerce website
+## Overview
 
-**Automation Scenario:**
-1. Navigate to https://www.saucedemo.com/
-As a user of the sauceDemo website
-3. I want to be able to login with my account 
-4. So that I can manage my account related features and manage my orders
+This project demonstrates UI automation testing using Selenium, Cucumber, and TestNG. 
+It follows a Behavior-Driven Development (BDD) approach for writing test scenarios.
 
+### Tools and Technology
+```
+Cucumber - Java Lib / Selenium 4.x
+JDK 1.8
+Maven
+Cucumber-TestNG
+Cucumber, Gherkin BDD Plugins in Eclipse
+Eclipse - IDE
+Gherkin
+Feature Files
+```
 
- **Tools and Technology** 
-1. Cucumber - Java Lib / Selenium 4.x 
-2. JDK 1.8
-3. Maven
-4. Cucumber-TestNG
-5. Cucumber, Gherkin BDD Plugins in Eclipse
-6. Eclipse - IDE
-7. Gherkin
-8. Feature Files
+### Prerequisites
 
-**Folder Structure**
+Before running the tests, ensure you have the following installed:
 
-Project Name
+- Java (JDK 8 or higher)
+- Maven
+- WebDriver (e.g., ChromeDriver)
 
-src/test/resources/**Features**(Folder)
-  
-src/main/java/**pageObject**(Package)
-  
-src/test/java/**stepDefinitions**(package)
+### Project Structure
 
-src/test/java/**utilities**(Package)
+The project is organized as follows:
 
-Drivers(Folder)
+```
+MySeleniumProject
+|-- src
+|   |-- main
+|   |   |-- java
+|   |   |   |-- com.pages
+|   |   |       |-- LoginPage.java
+|   |-- test
+|       |-- java
+|       |   |-- com.runner
+|       |       |-- TestRunner.java
+|       |   |-- com.stepDefinitons
+|       |       |-- LoginPageSteps.java
+|       |-- resources
+|       |   |-- features
+|       |       |-- loginpage.feature
+|-- target (reports)
+|-- pom.xml
+```
 
-Target(Reports)
+## Execution Steps
 
-pom.xml
+### 1. Clone the Repository:
+```
+git clone (https://github.com/Kritika13/CucumberMiniProject.git)
+cd CucumberMiniProject
+```
+### 2.Configure WebDriver:
 
-testng.xml
+Download the appropriate WebDriver executable (e.g., ChromeDriver) and update the 
+`webdriver.path in src/main/resources/config/config.properties`
+
+### 3.Run the Tests:
+`mvn clean test`
+The tests will execute in parallel, and you can view the test results in the target/cucumber-reports directory.
 
